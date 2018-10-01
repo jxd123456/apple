@@ -1,0 +1,24 @@
+/*pc*/
+.container{
+	width: 1080px;
+	margin:0 auto;
+}
+.header{
+background-color: chocolate;
+}
+.header::after{
+content: "";
+display: block;
+clear: both;	
+}
+.header> div{
+    width:260px;
+    margin-left: 10px;
+    float: left;
+    height: 300px;
+    margin-bottom: 10px;
+    background-color: pink;
+}
+.header>div:nth-child(even){
+margin-right: 0;
+}

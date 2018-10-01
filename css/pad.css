@@ -1,0 +1,21 @@
+/*pad*/
+.container{
+	width: 900px;
+	margin: 0 auto;
+}
+.header{
+	background-color: orange;
+}
+.header::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.header>div{
+	width: 440px;
+	height: 200px;
+	float: left;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	background-color: pink;
+}
